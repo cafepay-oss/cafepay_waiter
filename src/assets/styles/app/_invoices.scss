@@ -1,0 +1,17 @@
+.invoices {
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  &__table {
+    background-color: white;
+    height: 100%;
+  }
+
+  & .ant-card-body {
+      padding: 0 !important;
+  }
+
+  & .ant-table-body {
+      margin: 0 !important;
+  }
+}

@@ -1,0 +1,16 @@
+.table-card {
+  height: 100%;
+  
+  &__table-name {
+    text-align: center;
+    font-weight: 500;
+  }
+
+  &__table-data {
+    direction: rtl;
+
+    & span {
+      font-weight: 500;
+    }
+  }
+}

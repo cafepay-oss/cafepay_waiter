@@ -1,0 +1,21 @@
+.qrcode {
+  width: 100%;
+  height: calc(100vh - 80px);
+  overflow-y: hidden;
+
+  &__tables-list {
+    height: 40vh;
+    overflow: scroll;
+  }
+}
+
+.ant-modal-body {
+  direction: rtl;
+  height: 54vh;
+  overflow: scroll;
+}
+
+.selected {
+  background-color: #ccf3ff;
+  color: #007497;
+}

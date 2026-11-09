@@ -1,0 +1,12 @@
+.action-bar {
+    display: flex;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    & > li {
+        flex: 1;
+    }
+}

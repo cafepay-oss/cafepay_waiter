@@ -1,0 +1,57 @@
+.table {
+  height: calc(100vh - 80px);
+  overflow: hidden;
+
+  &__menu {
+    &__categories {
+      display: flex;
+      overflow-x: scroll;
+      padding: 1rem 0;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      &__category {
+        margin: 0 4px;
+        padding: 4px 10px;
+        border-radius: 20px;
+      }
+    }
+
+    &__products {
+      max-height: 40vh;
+      overflow-y: scroll;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+
+    &__table-products {
+      & .ant-table-body {
+        max-height: 35vh !important;
+      }
+    }
+  }
+
+  &__actions{
+    display: flex;
+    flex: 1;
+
+    &__item{
+      flex: 1;
+    }
+  }
+
+
+}
+
+.ant-table-row-expand-icon {
+  margin: 0px 0px 0px 8px !important;
+}
+
+.ant-table-content {
+  font-size: 0.6rem;
+  font-weight: 500;
+}

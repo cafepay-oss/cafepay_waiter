@@ -1,0 +1,39 @@
+#components-form-demo-normal-login .login-form {
+  max-width: 300px;
+}
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+#components-form-demo-normal-login .login-form-button {
+  width: 100%;
+}
+
+.login {
+  height: 100vh;
+  overflow-y: hidden;
+
+  & > div {
+    height: 100%;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+  }
+
+  &__subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  &__send-again {
+    border: none !important;
+    color: #008dca;
+    margin-inline-start: -0.75em;
+  }
+}
+
+.centered-input {
+  & input {
+    text-align: center !important;
+  }
+}
